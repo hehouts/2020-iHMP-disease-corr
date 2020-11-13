@@ -1,0 +1,13 @@
+import pandas as pd
+fileinfo = pd.read_csv("iHMP_t2d_tx_sample_info.csv")
+fileinfo.set_index("sample",inplace=True)
+samples = fileinfo.index.tolist()
+rule all:
+    input: 
+         expand("raw_data/zipped_data/{sample}.tar", sample=samples)
+
+rule download_data:
+    output: "raw_data/zipped_data/{sample}.tar"
+    params: 
+        URL= lambda wildcards: fileinfo.at[wildcards.sample, "link"]
+    shell: "wget -O {output} {params.URL}"
