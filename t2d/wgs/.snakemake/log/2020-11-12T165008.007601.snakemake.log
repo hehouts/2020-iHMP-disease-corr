@@ -1,0 +1,4 @@
+BdbQuit in line 4 of /home/hehouts/2020-iHMP-T2D/Snakefile.
+  File "/home/hehouts/2020-iHMP-T2D/Snakefile", line 4, in <module>
+  File "/home/hehouts/miniconda3/envs/virHMP/lib/python3.6/bdb.py", line 55, in trace_dispatch
+  File "/home/hehouts/miniconda3/envs/virHMP/lib/python3.6/bdb.py", line 99, in dispatch_return

@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1140	download_data
+	1141
+
+[Thu Nov 12 22:54:51 2020]
+rule download_data:
+    output: raw_data/zipped_data/SCGPM_WZ04-P1_C995J_L7_TCCGGAGA_R1.tar
+    jobid: 1059
+    wildcards: sample=SCGPM_WZ04-P1_C995J_L7_TCCGGAGA_R1
+
+[Thu Nov 12 22:54:51 2020]
+Error in rule download_data:
+    jobid: 1059
+    output: raw_data/zipped_data/SCGPM_WZ04-P1_C995J_L7_TCCGGAGA_R1.tar
+    shell:
+        wget -O raw_data/zipped_data/SCGPM_WZ04-P1_C995J_L7_TCCGGAGA_R1.tar sample
+SCGPM_WZ04-P1_C995J_L7_TCCGGAGA_R1    http://downloads.hmpdacc.org/ihmp/t2d/transcri...
+SCGPM_WZ04-P1_C995J_L7_TCCGGAGA_R1    http://downloads.hmpdacc.org/ihmp/t2d/transcri...
+Name: link, dtype: object
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job download_data since they might be corrupted:
+raw_data/zipped_data/SCGPM_WZ04-P1_C995J_L7_TCCGGAGA_R1.tar
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/hehouts/2020-iHMP-T2D/transcriptomics/.snakemake/log/2020-11-12T225448.785756.snakemake.log

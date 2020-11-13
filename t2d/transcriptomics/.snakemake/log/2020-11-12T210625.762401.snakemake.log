@@ -1,0 +1,4 @@
+KeyError in line 3 of /home/hehouts/2020-iHMP-T2D/transcriptomics/Snakefile:
+"None of ['sample'] are in the columns"
+  File "/home/hehouts/2020-iHMP-T2D/transcriptomics/Snakefile", line 3, in <module>
+  File "/home/hehouts/miniconda3/envs/virHMP/lib/python3.6/site-packages/pandas/core/frame.py", line 4555, in set_index

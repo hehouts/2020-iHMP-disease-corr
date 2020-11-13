@@ -1,0 +1,736 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	79	download_data
+	80
+
+[Thu Nov 12 17:09:00 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZWHMV5E.tar
+    jobid: 31
+    wildcards: sample=ZWHMV5E
+
+[Thu Nov 12 17:20:14 2020]
+Finished job 31.
+1 of 80 steps (1%) done
+
+[Thu Nov 12 17:20:15 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZVNCGHM.tar
+    jobid: 46
+    wildcards: sample=ZVNCGHM
+
+[Thu Nov 12 17:32:35 2020]
+Finished job 46.
+2 of 80 steps (2%) done
+
+[Thu Nov 12 17:32:36 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZMBH10Z.tar
+    jobid: 61
+    wildcards: sample=ZMBH10Z
+
+[Thu Nov 12 17:32:36 2020]
+Finished job 61.
+3 of 80 steps (4%) done
+
+[Thu Nov 12 17:32:36 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZTMFN3O.tar
+    jobid: 16
+    wildcards: sample=ZTMFN3O
+
+[Thu Nov 12 17:44:21 2020]
+Finished job 16.
+4 of 80 steps (5%) done
+
+[Thu Nov 12 17:44:21 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZK4CK8Y.tar
+    jobid: 68
+    wildcards: sample=ZK4CK8Y
+
+[Thu Nov 12 17:44:22 2020]
+Finished job 68.
+5 of 80 steps (6%) done
+
+[Thu Nov 12 17:44:22 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZNED4XZ.tar
+    jobid: 76
+    wildcards: sample=ZNED4XZ
+
+[Thu Nov 12 17:44:22 2020]
+Finished job 76.
+6 of 80 steps (8%) done
+
+[Thu Nov 12 17:44:22 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZS2DMX7.tar
+    jobid: 43
+    wildcards: sample=ZS2DMX7
+
+[Thu Nov 12 17:54:52 2020]
+Finished job 43.
+7 of 80 steps (9%) done
+
+[Thu Nov 12 17:54:53 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZQFL1P3.tar
+    jobid: 2
+    wildcards: sample=ZQFL1P3
+
+[Thu Nov 12 18:05:02 2020]
+Finished job 2.
+8 of 80 steps (10%) done
+
+[Thu Nov 12 18:05:02 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZS78KHV.tar
+    jobid: 9
+    wildcards: sample=ZS78KHV
+
+[Thu Nov 12 18:15:34 2020]
+Finished job 9.
+9 of 80 steps (11%) done
+
+[Thu Nov 12 18:15:34 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZUPAQVU.tar
+    jobid: 24
+    wildcards: sample=ZUPAQVU
+
+[Thu Nov 12 18:24:32 2020]
+Finished job 24.
+10 of 80 steps (12%) done
+
+[Thu Nov 12 18:24:32 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZPEL6L3.tar
+    jobid: 39
+    wildcards: sample=ZPEL6L3
+
+[Thu Nov 12 18:33:42 2020]
+Finished job 39.
+11 of 80 steps (14%) done
+
+[Thu Nov 12 18:33:43 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZJTKAE3.tar
+    jobid: 53
+    wildcards: sample=ZJTKAE3
+
+[Thu Nov 12 18:33:43 2020]
+Finished job 53.
+12 of 80 steps (15%) done
+
+[Thu Nov 12 18:33:43 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZRLZ98T.tar
+    jobid: 54
+    wildcards: sample=ZRLZ98T
+
+[Thu Nov 12 18:33:43 2020]
+Finished job 54.
+13 of 80 steps (16%) done
+
+[Thu Nov 12 18:33:43 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZTUO1AO.tar
+    jobid: 18
+    wildcards: sample=ZTUO1AO
+
+[Thu Nov 12 18:43:59 2020]
+Finished job 18.
+14 of 80 steps (18%) done
+
+[Thu Nov 12 18:43:59 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZY39SN0.tar
+    jobid: 33
+    wildcards: sample=ZY39SN0
+
+[Thu Nov 12 18:58:00 2020]
+Finished job 33.
+15 of 80 steps (19%) done
+
+[Thu Nov 12 18:58:01 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZQMVU4Q.tar
+    jobid: 3
+    wildcards: sample=ZQMVU4Q
+
+[Thu Nov 12 19:06:53 2020]
+Finished job 3.
+16 of 80 steps (20%) done
+
+[Thu Nov 12 19:06:54 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZWCZHHY.tar
+    jobid: 48
+    wildcards: sample=ZWCZHHY
+
+[Thu Nov 12 19:21:13 2020]
+Finished job 48.
+17 of 80 steps (21%) done
+
+[Thu Nov 12 19:21:14 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZKFV71L.tar
+    jobid: 55
+    wildcards: sample=ZKFV71L
+
+[Thu Nov 12 19:21:15 2020]
+Finished job 55.
+18 of 80 steps (22%) done
+
+[Thu Nov 12 19:21:15 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZN0JE53.tar
+    jobid: 63
+    wildcards: sample=ZN0JE53
+
+[Thu Nov 12 19:21:15 2020]
+Finished job 63.
+19 of 80 steps (24%) done
+
+[Thu Nov 12 19:21:15 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZPF36E2.tar
+    jobid: 40
+    wildcards: sample=ZPF36E2
+
+[Thu Nov 12 19:25:01 2020]
+Finished job 40.
+20 of 80 steps (25%) done
+
+[Thu Nov 12 19:25:02 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZL9BTWF.tar
+    jobid: 70
+    wildcards: sample=ZL9BTWF
+
+[Thu Nov 12 19:25:02 2020]
+Finished job 70.
+21 of 80 steps (26%) done
+
+[Thu Nov 12 19:25:02 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZV14SIB.tar
+    jobid: 25
+    wildcards: sample=ZV14SIB
+
+[Thu Nov 12 19:37:42 2020]
+Finished job 25.
+22 of 80 steps (28%) done
+
+[Thu Nov 12 19:37:42 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZP0DXQ0.tar
+    jobid: 78
+    wildcards: sample=ZP0DXQ0
+
+[Thu Nov 12 19:37:42 2020]
+Finished job 78.
+23 of 80 steps (29%) done
+
+[Thu Nov 12 19:37:43 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZSOZWGV.tar
+    jobid: 10
+    wildcards: sample=ZSOZWGV
+
+[Thu Nov 12 19:44:33 2020]
+Finished job 10.
+24 of 80 steps (30%) done
+
+[Thu Nov 12 19:44:34 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZSQNUZ5.tar
+    jobid: 11
+    wildcards: sample=ZSQNUZ5
+
+[Thu Nov 12 19:53:28 2020]
+Finished job 11.
+25 of 80 steps (31%) done
+
+[Thu Nov 12 19:53:28 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZVGW5FI.tar
+    jobid: 28
+    wildcards: sample=ZVGW5FI
+
+[Thu Nov 12 20:04:29 2020]
+Finished job 28.
+26 of 80 steps (32%) done
+
+[Thu Nov 12 20:04:30 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZVBQY1N.tar
+    jobid: 26
+    wildcards: sample=ZVBQY1N
+
+[Thu Nov 12 20:10:56 2020]
+Finished job 26.
+27 of 80 steps (34%) done
+
+[Thu Nov 12 20:10:56 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZOBX723.tar
+    jobid: 77
+    wildcards: sample=ZOBX723
+
+[Thu Nov 12 20:10:57 2020]
+Finished job 77.
+28 of 80 steps (35%) done
+
+[Thu Nov 12 20:10:57 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZPJT5MY.tar
+    jobid: 41
+    wildcards: sample=ZPJT5MY
+
+[Thu Nov 12 20:21:04 2020]
+Finished job 41.
+29 of 80 steps (36%) done
+
+[Thu Nov 12 20:21:04 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZL63I8R.tar
+    jobid: 69
+    wildcards: sample=ZL63I8R
+
+[Thu Nov 12 20:21:04 2020]
+Finished job 69.
+30 of 80 steps (38%) done
+
+[Thu Nov 12 20:21:04 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZKVR426.tar
+    jobid: 56
+    wildcards: sample=ZKVR426
+
+[Thu Nov 12 20:21:05 2020]
+Finished job 56.
+31 of 80 steps (39%) done
+
+[Thu Nov 12 20:21:05 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZX52KVK.tar
+    jobid: 51
+    wildcards: sample=ZX52KVK
+
+[Thu Nov 12 20:21:05 2020]
+Finished job 51.
+32 of 80 steps (40%) done
+
+[Thu Nov 12 20:21:05 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZTL8083.tar
+    jobid: 14
+    wildcards: sample=ZTL8083
+
+[Thu Nov 12 20:26:33 2020]
+Finished job 14.
+33 of 80 steps (41%) done
+
+[Thu Nov 12 20:26:33 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZQNZSQF.tar
+    jobid: 4
+    wildcards: sample=ZQNZSQF
+
+[Thu Nov 12 20:34:25 2020]
+Finished job 4.
+34 of 80 steps (42%) done
+
+[Thu Nov 12 20:34:25 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZY7IW45.tar
+    jobid: 34
+    wildcards: sample=ZY7IW45
+
+[Thu Nov 12 20:48:42 2020]
+Finished job 34.
+35 of 80 steps (44%) done
+
+[Thu Nov 12 20:48:43 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZTXWLP3.tar
+    jobid: 19
+    wildcards: sample=ZTXWLP3
+
+[Thu Nov 12 20:53:18 2020]
+Finished job 19.
+36 of 80 steps (45%) done
+
+[Thu Nov 12 20:53:19 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZXKBAO5.tar
+    jobid: 49
+    wildcards: sample=ZXKBAO5
+
+[Thu Nov 12 21:05:33 2020]
+Finished job 49.
+37 of 80 steps (46%) done
+
+[Thu Nov 12 21:05:34 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZMGT937.tar
+    jobid: 62
+    wildcards: sample=ZMGT937
+
+[Thu Nov 12 21:05:34 2020]
+Finished job 62.
+38 of 80 steps (48%) done
+
+[Thu Nov 12 21:05:34 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZN3TBJM.tar
+    jobid: 64
+    wildcards: sample=ZN3TBJM
+
+[Thu Nov 12 21:05:34 2020]
+Finished job 64.
+39 of 80 steps (49%) done
+
+[Thu Nov 12 21:05:35 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZVTCAK9.tar
+    jobid: 47
+    wildcards: sample=ZVTCAK9
+
+[Thu Nov 12 21:26:36 2020]
+Finished job 47.
+40 of 80 steps (50%) done
+
+[Thu Nov 12 21:26:37 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZLGD9M0.tar
+    jobid: 71
+    wildcards: sample=ZLGD9M0
+
+[Thu Nov 12 21:26:37 2020]
+Finished job 71.
+41 of 80 steps (51%) done
+
+[Thu Nov 12 21:26:38 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZXHCGKV.tar
+    jobid: 32
+    wildcards: sample=ZXHCGKV
+
+[Thu Nov 12 21:42:58 2020]
+Finished job 32.
+42 of 80 steps (52%) done
+
+[Thu Nov 12 21:42:59 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZRGK7U8.tar
+    jobid: 79
+    wildcards: sample=ZRGK7U8
+
+[Thu Nov 12 21:42:59 2020]
+Finished job 79.
+43 of 80 steps (54%) done
+
+[Thu Nov 12 21:42:59 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZPXU188.tar
+    jobid: 1
+    wildcards: sample=ZPXU188
+
+[Thu Nov 12 21:50:34 2020]
+Finished job 1.
+44 of 80 steps (55%) done
+
+[Thu Nov 12 21:50:35 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZSUQ08V.tar
+    jobid: 12
+    wildcards: sample=ZSUQ08V
+
+[Thu Nov 12 22:03:40 2020]
+Finished job 12.
+45 of 80 steps (56%) done
+
+[Thu Nov 12 22:03:40 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZTTL3YH.tar
+    jobid: 17
+    wildcards: sample=ZTTL3YH
+
+[Thu Nov 12 22:20:34 2020]
+Finished job 17.
+46 of 80 steps (57%) done
+
+[Thu Nov 12 22:20:35 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZVC4YUG.tar
+    jobid: 27
+    wildcards: sample=ZVC4YUG
+
+[Thu Nov 12 22:36:21 2020]
+Finished job 27.
+47 of 80 steps (59%) done
+
+[Thu Nov 12 22:36:21 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZUF48YS.tar
+    jobid: 21
+    wildcards: sample=ZUF48YS
+
+[Thu Nov 12 22:47:26 2020]
+Finished job 21.
+48 of 80 steps (60%) done
+
+[Thu Nov 12 22:47:27 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZYHHR4Z.tar
+    jobid: 36
+    wildcards: sample=ZYHHR4Z
+
+[Thu Nov 12 22:59:38 2020]
+Finished job 36.
+49 of 80 steps (61%) done
+
+[Thu Nov 12 22:59:39 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZVM4N7A.tar
+    jobid: 29
+    wildcards: sample=ZVM4N7A
+
+[Thu Nov 12 23:23:35 2020]
+Finished job 29.
+50 of 80 steps (62%) done
+
+[Thu Nov 12 23:23:36 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZSMO1UM.tar
+    jobid: 44
+    wildcards: sample=ZSMO1UM
+
+[Thu Nov 12 23:39:13 2020]
+Finished job 44.
+51 of 80 steps (64%) done
+
+[Thu Nov 12 23:39:13 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZM7JY3G.tar
+    jobid: 59
+    wildcards: sample=ZM7JY3G
+
+[Thu Nov 12 23:39:14 2020]
+Finished job 59.
+52 of 80 steps (65%) done
+
+[Thu Nov 12 23:39:14 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZMBVNFM.tar
+    jobid: 66
+    wildcards: sample=ZMBVNFM
+
+[Thu Nov 12 23:39:14 2020]
+Finished job 66.
+53 of 80 steps (66%) done
+
+[Thu Nov 12 23:39:14 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZLTUJTN.tar
+    jobid: 73
+    wildcards: sample=ZLTUJTN
+
+[Thu Nov 12 23:39:14 2020]
+Finished job 73.
+54 of 80 steps (68%) done
+
+[Thu Nov 12 23:39:14 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZLZNCLZ.tar
+    jobid: 74
+    wildcards: sample=ZLZNCLZ
+
+[Thu Nov 12 23:39:14 2020]
+Finished job 74.
+55 of 80 steps (69%) done
+
+[Thu Nov 12 23:39:14 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZRA5YD8.tar
+    jobid: 7
+    wildcards: sample=ZRA5YD8
+
+[Thu Nov 12 23:47:39 2020]
+Finished job 7.
+56 of 80 steps (70%) done
+
+[Thu Nov 12 23:47:40 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZUHT69X.tar
+    jobid: 22
+    wildcards: sample=ZUHT69X
+
+[Thu Nov 12 23:58:45 2020]
+Finished job 22.
+57 of 80 steps (71%) done
+
+[Thu Nov 12 23:58:46 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZYU89T9.tar
+    jobid: 37
+    wildcards: sample=ZYU89T9
+
+[Fri Nov 13 00:08:51 2020]
+Finished job 37.
+58 of 80 steps (72%) done
+
+[Fri Nov 13 00:08:51 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZXSDNAK.tar
+    jobid: 52
+    wildcards: sample=ZXSDNAK
+
+[Fri Nov 13 00:08:52 2020]
+Finished job 52.
+59 of 80 steps (74%) done
+
+[Fri Nov 13 00:08:52 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZTLUDS8.tar
+    jobid: 15
+    wildcards: sample=ZTLUDS8
+
+[Fri Nov 13 00:19:01 2020]
+Finished job 15.
+60 of 80 steps (75%) done
+
+[Fri Nov 13 00:19:02 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZW61YGW.tar
+    jobid: 30
+    wildcards: sample=ZW61YGW
+
+[Fri Nov 13 00:30:09 2020]
+Finished job 30.
+61 of 80 steps (76%) done
+
+[Fri Nov 13 00:30:09 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZV1ZA6Z.tar
+    jobid: 45
+    wildcards: sample=ZV1ZA6Z
+
+[Fri Nov 13 00:39:52 2020]
+Finished job 45.
+62 of 80 steps (78%) done
+
+[Fri Nov 13 00:39:53 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZM8YXDM.tar
+    jobid: 60
+    wildcards: sample=ZM8YXDM
+
+[Fri Nov 13 00:39:54 2020]
+Finished job 60.
+63 of 80 steps (79%) done
+
+[Fri Nov 13 00:39:54 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZJXC41N.tar
+    jobid: 67
+    wildcards: sample=ZJXC41N
+
+[Fri Nov 13 00:39:55 2020]
+Finished job 67.
+64 of 80 steps (80%) done
+
+[Fri Nov 13 00:39:55 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZTXY83G.tar
+    jobid: 20
+    wildcards: sample=ZTXY83G
+
+[Fri Nov 13 00:49:18 2020]
+Finished job 20.
+65 of 80 steps (81%) done
+
+[Fri Nov 13 00:49:19 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZY9XQJP.tar
+    jobid: 35
+    wildcards: sample=ZY9XQJP
+
+[Fri Nov 13 01:00:27 2020]
+Finished job 35.
+66 of 80 steps (82%) done
+
+[Fri Nov 13 01:00:28 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZYLJ7R7.tar
+    jobid: 50
+    wildcards: sample=ZYLJ7R7
+
+[Fri Nov 13 01:00:28 2020]
+Finished job 50.
+67 of 80 steps (84%) done
+
+[Fri Nov 13 01:00:28 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZN9TKCJ.tar
+    jobid: 65
+    wildcards: sample=ZN9TKCJ
+
+[Fri Nov 13 01:00:28 2020]
+Finished job 65.
+68 of 80 steps (85%) done
+
+[Fri Nov 13 01:00:28 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZLPZS0H.tar
+    jobid: 72
+    wildcards: sample=ZLPZS0H
+
+[Fri Nov 13 01:00:29 2020]
+Finished job 72.
+69 of 80 steps (86%) done
+
+[Fri Nov 13 01:00:29 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZTL5S2Y.tar
+    jobid: 13
+    wildcards: sample=ZTL5S2Y
+
+[Fri Nov 13 01:07:46 2020]
+Finished job 13.
+70 of 80 steps (88%) done
+
+[Fri Nov 13 01:07:46 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZR3WH7V.tar
+    jobid: 5
+    wildcards: sample=ZR3WH7V
+
+[Fri Nov 13 01:14:37 2020]
+Finished job 5.
+71 of 80 steps (89%) done
+
+[Fri Nov 13 01:14:38 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZLYEM2C.tar
+    jobid: 57
+    wildcards: sample=ZLYEM2C
+
+[Fri Nov 13 01:14:38 2020]
+Finished job 57.
+72 of 80 steps (90%) done
+
+[Fri Nov 13 01:14:38 2020]
+rule download_data:
+    output: raw_data/zipped_data/ZPMBHPS.tar
+    jobid: 42
+    wildcards: sample=ZPMBHPS
+
