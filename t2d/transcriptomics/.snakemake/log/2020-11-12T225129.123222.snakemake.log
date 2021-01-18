@@ -1,3 +1,0 @@
-NameError in line 4 of /home/hehouts/2020-iHMP-T2D/transcriptomics/Snakefile:
-name 'pdg' is not defined
-  File "/home/hehouts/2020-iHMP-T2D/transcriptomics/Snakefile", line 4, in <module>

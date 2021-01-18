@@ -1,0 +1,23 @@
+import pandas as pd
+
+# isolate sample names and download links
+fileinfo = pd.read_csv("iHMP_t2d_stool_microb_transcriptomics_dl_links.csv",\
+   header=None, names = ["link", "dataset_type", "filetype", "size"],\
+   usecols=[1,2,3,4])
+fileinfo["sample"] = fileinfo["link"].str.split("/raw/", expand=True)\
+   [1].str.split(".raw.fastq.tar", expand=True)[0]
+fileinfo = fileinfo.set_index('sample').reset_index()
+fileinfo.set_index("sample",inplace=True)
+samples = fileinfo.index.tolist()
+
+#import pdb;pdb.set_trace()
+
+rule all:
+    input: 
+         expand("raw_data/{sample}.tar", sample=samples)
+
+rule download_data:
+    output: "raw_data/{sample}.tar"
+    params: 
+        URL= lambda wildcards: fileinfo.at[wildcards.sample, "link"]
+    shell: "wget -O {output} {params.URL}"

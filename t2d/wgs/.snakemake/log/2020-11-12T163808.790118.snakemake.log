@@ -1,3 +1,0 @@
-ModuleNotFoundError in line 5 of /home/hehouts/2020-iHMP-T2D/Snakefile:
-No module named 'pandas'
-  File "/home/hehouts/2020-iHMP-T2D/Snakefile", line 5, in <module>
