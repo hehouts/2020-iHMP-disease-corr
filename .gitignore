@@ -1,0 +1,16 @@
+t2d/microbe_tx/.snakemake/
+t2d/microbe_tx/old_raw_data*/
+
+-----
+
+t2d/microbe_wgs/old_raw_data/
+t2d/microbe_wgs/.snakemake/
+
+t2d/microbe_wgs/inputs/*
+t2d/microbe_wgs/outputs.iHMP/raw/*
+t2d/microbe_wgs/outputs.iHMP/trim/*
+t2d/microbe_wgs/outputs.iHMP/abundtrim/*
+t2d/microbe_wgs/outputs.iHMP/sigs/*
+
+t2d/microbe_wgs/outputs/*
+

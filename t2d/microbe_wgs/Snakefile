@@ -1,0 +1,43 @@
+
+names=["SM-CSF6Z"]
+outdir="outputs.iHMP"
+# "SM-CTLFW", "SM-CTTKX"]
+
+rule all: 
+    input: expand(outdir + "/reports/report-{sample}.html", sample = names)
+
+
+
+rule copy_samples:
+    input:
+        r1 = "/home/hehouts/2020-IBD-Virome/raw_data/zipped_data/{sample}_1.gz",
+        r2 = "/home/hehouts/2020-IBD-Virome/raw_data/zipped_data/{sample}_2.gz",
+    output: 
+        r1 = protected(outdir + "/raw/{sample}_1.fastq.gz"),
+        r2 = protected(outdir + "/raw/{sample}_2.fastq.gz"),
+    shell: """
+        cp {input.r1} {output.r1}
+        cp {input.r2} {output.r2}
+        """
+
+rule write_gg_conf:
+    output: "conf.yml"
+    run:
+        with open(str(output), "w") as outF:
+            outF.write("sample:\n")
+            for sample in names:
+                outF.write("- " + str(sample) + "\n")
+            outF.write("outdir: " + outdir)
+
+
+rule genome_grist:
+    input: 
+        r1 = outdir + "/raw/{sample}_1.fastq.gz",
+        r2 = outdir + "/raw/{sample}_2.fastq.gz",
+        conf = "conf.yml"
+    output:
+        outdir + "/reports/report-{sample}.html"
+    shell: """
+        genome-grist process {wildcards.sample} smash_reads
+        """
+
