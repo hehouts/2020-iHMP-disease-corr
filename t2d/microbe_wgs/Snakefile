@@ -37,7 +37,11 @@ rule genome_grist:
         conf = "conf.yml"
     output:
         outdir + "/reports/report-{sample}.html"
+    threads: 
+        8
     shell: """
-        genome-grist process {wildcards.sample} smash_reads
+        genome-grist process {wildcards.sample} smash_reads -j {threads}
+        genome-grist process {wildcards.sample} gather_genbank -j {threads}
+        genome-grist process {wildcards.sample} summarize -j {threads}
         """
 
